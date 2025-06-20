@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>From Aryan, with Love</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="bg-image bg-hero"></div>
+    <div class="hero-content">
+      <div class="text-block">
+        <h1>From Aryan,<br><span>with lots of love 💌</span></h1>
+        <p class="subtext">Click The Chocolate :) <br> and scroll down</p>
+      </div>
+      <div class="choco-block">
+        <img id="mainChoco" src="assets/choco1.png" alt="chocolate" class="main-choco">
+      </div>
+    </div>
+  </section>
+
+  <div class="clean-divider"></div>
+
+  <!-- Songs Section -->
+  <section class="songs-section">
+    <div class="bg-image bg-songs"></div>
+    <h2>Songs that remind me of you 💖</h2>
+    <div class="slider" id="songSlider">
+      <div class="slider-item song-card">
+        <iframe src="https://open.spotify.com/embed/track/2QjOHCTQ1Jl3zawyYOpxh6" width="100%" height="300" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="slider-item song-card">
+        <iframe src="https://open.spotify.com/embed/track/6RiiSy9GzSwiyDEJDiMuKe" width="100%" height="300" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="slider-item song-card">
+        <iframe src="https://open.spotify.com/embed/track/1Ukxccao1BlWrPhYkcXbwZ" width="100%" height="300" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="slider-item song-card">
+        <iframe src="https://open.spotify.com/embed/track/2GxrNKugF82CnoRFbQfzPf" width="100%" height="300" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="slider-item song-card">
+        <iframe src="https://open.spotify.com/embed/track/0BxE4FqsDD1Ot4YuBXwAPp" width="100%" height="300" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+      <div class="slider-item song-card">
+        <iframe src="https://open.spotify.com/embed/track/7eJMfftS33KTjuF7lTsMCx" width="100%" height="300" frameborder="0" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <div class="clean-divider"></div>
+
+  <!-- Movie Couples Section -->
+  <section class="movie-couples">
+    <div class="bg-image bg-couples"></div>
+    <h2>Iconic couples like us? 💑</h2>
+    <div class="slider" id="coupleSlider">
+      <img src="photos/1.jpg" alt="Couple 1" class="slider-item">
+      <img src="photos/2.jpg" alt="Couple 2" class="slider-item">
+      <img src="photos/3.jpg" alt="Couple 3" class="slider-item">
+      <img src="photos/4.jpg" alt="Couple 4" class="slider-item">
+      <img src="photos/5.jpg" alt="Couple 5" class="slider-item">
+      <img src="photos/6.jpg" alt="Couple 6" class="slider-item">
+      <img src="photos/7.jpg" alt="Couple 7" class="slider-item">
+      <img src="photos/8.jpg" alt="Couple 8" class="slider-item">
+    </div>
+  </section>
+
+  <div class="clean-divider"></div>
+
+  <!-- Letter Section -->
+  <section class="letter-section">
+    <div class="bg-image bg-letter"></div>
+    <h2>Click the letter 😋</h2>
+    <div class="envelope-container">
+      <div class="envelope" id="envelope"></div>
+      <div id="letterText" class="paper-with-image"></div>
+    </div>
+  </section>
+
+  <div class="clean-divider"></div>
+
+  <!-- Send a Heart Section -->
+  <section class="send-heart">
+    <h2>Send me a heart ❤️</h2>
+    <form id="heartForm">
+      <input type="text" id="heartMessage" placeholder="Type your message here...">
+      <button type="submit">Send</button>
+    </form>
+    <div class="heart-log" id="heartLog"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>Made with love by Aryan ✨</p>
+  </footer>
+
+  <audio id="biteSound" src="assets/bite.mp3" preload="auto"></audio>
+  <audio id="envelopeSound" src="assets/open.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
